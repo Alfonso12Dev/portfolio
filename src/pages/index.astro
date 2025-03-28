@@ -1,0 +1,61 @@
+---
+import Layout from "@/layouts/Layout.astro";
+
+// -- ICONOS --
+import Fire from "@/components/icons/fire.astro";
+import Code from "@/components/icons/Code.astro";
+
+// -- COMPONENTES --
+import Projects from "@/components/Projects.astro";
+import Experience from "@/components/Experience.astro";
+import SectionContainer from "@/components/SectionContainer.astro";
+import ScrollFade from "@/components/ScrollFade.astro";
+import Hero from "@/components/Hero.astro";
+---
+
+<Layout
+  title="Heather Marketplace"
+  description="La mejor opción para la configuración de tus Comunidades y desarrollo de Bots de Discord"
+>
+  <main class="px-4">
+
+    <!-- Sección Sobre mí -->
+    <SectionContainer class="py-16 md:py-36">
+      <Hero>
+      </slot>
+    </Hero>
+    </SectionContainer>
+
+    <div class="space-y-24">
+
+      <ScrollFade>
+
+    <!-- Ultimas comisiones -->
+    <SectionContainer id="experiencia">
+      <h2
+        class="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80 dark:text-white"
+      >
+        <Fire class="size-8" />
+        Últimas Comisiones
+        
+        
+      </h2>
+      <Experience/>
+    </SectionContainer>
+
+    <!-- Proyectos mas conocidos -->
+    <SectionContainer id="proyectos">
+      <h2
+        class="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80 dark:text-white"
+      >
+        <Code class="size-7" />
+        Proyectos más conocidos
+      </h2>
+      <Projects />
+    </SectionContainer>
+
+  </ScrollFade>
+
+  </div>
+  </main>
+</Layout>
