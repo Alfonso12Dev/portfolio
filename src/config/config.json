@@ -1,0 +1,61 @@
+{
+    "experience": [
+        {
+          "date": "Febrero de 2025",
+          "title": "Colombia RP Bot",
+          "description": "El bot fue solicitado específicamente con funciones Administrativas y de Roleplay para mejorar la calidad del servicio en su comunidad."
+        },
+        {
+          "date": "Enero de 2025",
+          "title": "México Roleplay Bot",
+          "description": "El bot se encargó exclusivamente con funciones de Roleplay para satisfacer las necesidades de su comunidad."
+        },
+        {
+          "date": "Noviembre de 2024",
+          "title": "España RP Bot",
+          "description": "Bot solicitado con funciones administrativas, roleplay y comandos customizados, el propósito del mismo fue ofrecer una mejor experiencia a la comunidad."
+        },
+        {
+          "date": "Febrero 2024",
+          "title": "Quálitas",
+          "description":
+            "Bot solicitado con las funciones básicas que incluyen: moderación, utilidad y comandos personalizados."
+        },
+        {
+          "date": "Enero 2024",
+          "title": "TacosMX",
+          "description":
+            "Bot solicitado para sistema de bienvenida, moderación y utilidad, además de varios comandos personalizados."
+        },
+        {
+          "date": "Agosto 2023",
+          "title": "Mayordomo - Guccinator",
+          "description":
+            "Bot con comandos de moderación básica, customizados, niveles y tickets"
+        },
+        {
+          "date": "Agosto 2023",
+          "title": "LandauStore",
+          "description":
+            "Bot con comandos customizados para uso del staff, comando de slash para un embed customizado y un sistema de bienvenida."
+        },
+        {
+          "date": "Agosto 2022",
+          "title": "Supremacys Bot",
+          "description":
+            "Bot desarrollado para la economía del servidor, que a su vez la moneda que se generaba con los comandos podía intercambiarse por dinero real."
+        },
+        {
+          "date": "Mayo 2022",
+          "title": "Community Supremacy",
+          "description":
+            "Bot dedicado al sistema de invitaciones que a su vez contaba con diversos comandos relacionados a este mismo."
+        },
+        {
+          "date": "Abril 2022",
+          "title": "Orygix",
+          "description":
+            "El bot contó con comandos dedicados al roleplay y moderación, además de un comando de entretenimiento"
+        }
+      ]
+}
