@@ -1,0 +1,52 @@
+---
+const imgAlt = "Heather Marketplace";
+
+// -- Componentes
+import Badge from "@/components/Badge.astro"
+import SocialPill from "@/components/SocialPill.astro"
+
+// -- Iconos --
+import EmailIcon from "@/components/icons/Email.astro"
+import DiscordIcon from "@/components/icons/discord.astro"
+
+---
+
+<div class="max-w-xl">
+  <div class="flex gap-4 mb-4">
+    <img
+      class="rounded-full shadow-lg size-24"
+      src="/me.png"
+      alt={imgAlt}
+    />
+    <a
+      href="https://github.com/Alfonso12Dev"
+      target="_blank"
+      rel="noopener"
+      class="flex items-center transition md:justify-center md:hover:scale-105"
+    >
+      <Badge>Comisiones 24/7</Badge>
+    </a>
+  </div>
+  <h1 
+    class="text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl dark:text-white"
+  >
+    Bienvenido a Heather Marketplace 👋
+  </h1>
+  <p
+    class="mt-6 text-xl text-gray-800 dark:[&>strong]:text-purple-300 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300"
+  >
+    Desarrollador de Bots y configurador de servidores de Discord con <strong>2 años de experiencia en el rublo</strong>. 
+  </p>
+  <nav class="flex flex-wrap gap-4 mt-8">
+
+    <SocialPill href="https://discord.com/users/812746586484375572">
+      <DiscordIcon class="size-5" />
+      heather_dev
+    </SocialPill>
+
+  <SocialPill href="mailto:alfonso12oficial@gmail.com">  
+    <EmailIcon class="size-5" />
+      Correo
+    </SocialPill>
+  </nav>
+</div>
